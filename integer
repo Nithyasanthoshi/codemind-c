@@ -1,0 +1,13 @@
+#include<stdio.h>
+void remainder(int num1,int num2)
+{
+	int res;
+	res=num1%num2;
+	scanf("%d",res);
+}
+int main()
+{
+	int num1,num2;
+	scanf("%d%d",&num1,&num2);
+	remainder(num1,num2);
+}
